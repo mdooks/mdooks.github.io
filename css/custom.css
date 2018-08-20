@@ -1,6 +1,10 @@
-.background-image {
-	background-image: url('../images/WEEBLYCUSTOM.jpg');
+.thumbnail{
+	position: relative;
+}
+
+.caption{
+	position: absolute;
+	top:45%;
+	left: 0;
 	width: 100%;
-	height: auto;
-	background-size: cover;
 }
