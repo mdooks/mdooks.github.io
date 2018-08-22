@@ -2,9 +2,9 @@
 
 .see-more-overlay{
 	position: absolute;
-	height: 100%;
-	width: 100%;
 	opacity: 0;
+	width: 100%;
+	height: 100%;
 	transition: .50s;
 	background-color: #008CBA;
 }
@@ -12,4 +12,15 @@
 
 .art-category:hover .see-more-overlay{
 	opacity: 1;
+}
+
+.text{
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
