@@ -12,38 +12,28 @@
 
 	<!-- Style Overrides--> 
 	<style type="text/css">
-		.thumbnail{
-			border: 0 none;
-			box-shadow: none;
-			margin: 0;
-			padding-top: -15%;
-		}
-
-		body {
-	background-color: #dbebfe;
-}
-
 
 	</style>
+
 </head>
 
 <!-- Navbar with stickytop where elements are justified right. Box around elements (style) and transparent bar until scroll down -->
 
 <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
-    <!--<a href="#" class="navbar-brand d-flex w-50 mr-auto">Mel</a> -->
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
         <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-            <li class="nav-item active bg-transparent border border-dark">
-                <a class="nav-link" href="#">Home</a>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="aboutme.html">About</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            <li class="nav-item active bg-transparent border border-dark">
+                <a class="nav-link" href="#">Portfolio</a>
             </li>
         </ul>
     </div>
@@ -51,11 +41,59 @@
 
 
 <body>
-	<div class="row">
-		<div class="thumbnail text-center ">
-			<img src="images/landing-page-cropped.png" style="width: 100%;" class="img-responsive">
-		</div>
+
+<!-- Code inspired by Bootstrap Examples (Product) -->
+
+<div class="w-100 my-md-3 pl-md-3">
+
+<!-- UX Experience & Design will always be the first as a rectangle spanning the screen's full width at all screen sizes -->
+<div class="w-100 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" style="background-color: orange;">
+	<div class="my-3 py-3">
+		<h2 class="display-4"> User Experience & Design </h2>
 	</div>
+</div>
+
+
+<div>
+
+<!-- Photography  -->
+<div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" style="background-color: pink;">
+	<div class="my-3 py-3">
+		<h2 class="display-4"> Photography </h2>
+	</div>
+</div>
+
+<!-- Drawing  -->
+<div class="mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" style="background-color: purple;">
+	<div class="my-3 py-3">
+		<h2 class="display-4"> Drawing </h2>
+	</div>
+</div>
+
+</div>
+
+<!-- Other: Embroidery, Airbrush, Crafts -->
+<div class="w-100 mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden" style="background-color: green;">
+	<div class="my-3 py-3">
+		<h2 class="display-4"> Other </h2>
+	</div>
+</div>
+
+<!-- Code inspired by Bootstrap Examples (Product)   
+
+d-md-flex flex-md-fill 
+      <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+          <h2 class="display-5">Another headline</h2>
+          <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div>
+      </div>
+
+--> 
+     
+
+</div>
 
 
 <!-- Enabling JavaScript--> 
